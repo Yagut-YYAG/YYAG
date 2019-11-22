@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 public class ConnectionApp {
     public static void main(String[] args) {
         Connection conn=DbConnection.getConnection();
-        final String SQLS="SELECT * FROM messages";
-
+        final String SQLS = "Select * From messages";
     }
 }
